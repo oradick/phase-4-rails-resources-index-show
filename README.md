@@ -197,8 +197,14 @@ Before you move on, make sure you can answer the following questions:
 
 1. Tools like `resources` are examples of Rails' use of the **convention over
    configuration** paradigm. What are the advantages of this approach?
+   ```
+   this approach is beneficial because it allows developers to easily run one command to achieve what otherwise would be tedious with many itterations of the same command. this also takes advantage of standardized naming conventions- therefore minimizing room for human error and bugs.
+   ```
 2. Why is it a good idea to limit the routes you create to ones that your API
    will actually use?
+   ```
+   It is generally a good idea to limit the routes you creare to ones that your API will actually use because it decreases the chance of your user running into an error if they were to accidentally call a route that doesn't exist.
+   ```
 
 ## Resources
 
